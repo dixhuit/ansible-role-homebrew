@@ -20,14 +20,11 @@ None.
 ## Example Playbook
 
 ```
-
 - hosts: macbookair
   connection: local
 
   roles:
-
     - role: ansible-role-homebrew
-
 ```
 
 ## License
