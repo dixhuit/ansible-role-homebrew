@@ -2,3 +2,6 @@
 
 - name: brew cleanup
   command: brew cleanup
+
+- name: brew cask cleanup
+  command: brew cask cleanup
