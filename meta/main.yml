@@ -1,0 +1,18 @@
+galaxy_info:
+  author: danbohea
+  description: Installs Homebrew & Homebrew Cask on Mac OS X.
+  license: MIT
+  min_ansible_version: 1.8
+  # In the absence of a 'Mac OS' platform option:
+  platforms:
+  - name: GenericUNIX
+    versions:
+    - all
+    - any
+  galaxy_tags:
+    - cask
+    - development
+    - homebrew
+    - osx
+    - packaging
+    - system
