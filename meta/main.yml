@@ -1,3 +1,7 @@
+---
+
+dependencies: []
+
 galaxy_info:
   author: danbohea
   description: Installs Homebrew & Homebrew Cask on Mac OS X.
