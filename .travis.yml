@@ -24,7 +24,7 @@ install:
   # Install Python, separate from version that ships with OS X
   # - brew install python
   # Install pip
-  sudo easy_install pip
+  - sudo easy_install pip
   # Install Ansible
   # - brew install ansible
   - sudo CFLAGS=-Qunused-arguments CPPFLAGS=-Qunused-arguments pip install ansible
