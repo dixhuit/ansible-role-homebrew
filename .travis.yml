@@ -6,10 +6,8 @@ os: osx
 install:
   # Debug info
   - python --version
-  # Uninstall Travis' bundled installation of Homebrew
-  - ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)" --force
   # Update Homebrew
-  # - brew update
+  - brew update
   # Install Python, separate from version that ships with OS X
   - brew install python
   #  Install Ansible
