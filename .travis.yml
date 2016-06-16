@@ -6,6 +6,7 @@ os: osx
 install:
   # Debug info
   - python --version
+  # TODO: Uninstall brew, install Ansible via pip
   # Update Homebrew
   - brew update
   # Install Python, separate from version that ships with OS X
