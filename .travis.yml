@@ -18,16 +18,17 @@ matrix:
 
 install:
   # Debug info
-  - python --version
+  # - python --version
   # Update Homebrew
-  - brew update
+  # - brew update
   # Install Python, separate from version that ships with OS X
-  - brew install python
-  #  Install Ansible
-  - brew install ansible
+  # - brew install python
+  # Install Ansible
+  # - brew install ansible
+  - sudo CFLAGS=-Qunused-arguments CPPFLAGS=-Qunused-arguments pip install ansible
   # Debug info
-  - python --version
-  - pip --version
+  # - python --version
+  # - pip --version
   - ansible --version
   # Install Ansible Lint
   - sudo pip install -q ansible-lint
