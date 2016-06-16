@@ -7,7 +7,7 @@ install:
   # Debug info
   - python --version
   # Uninstall Travis' bundled installation of Homebrew
-  - ruby -e --force "$(curl -fsSL https://gist.githubusercontent.com/SteveBenner/11254428/raw/8d78b69745cfd0c542d6ee6f8632e79de26f6dbb/unbrew.rb)"
+  - ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall --force)"
   # Update Homebrew
   # - brew update
   # Install Python, separate from version that ships with OS X
