@@ -17,6 +17,8 @@ galaxy_info:
     - cask
     - development
     - homebrew
+    - mac
+    - macsible
     - osx
     - packaging
     - system
