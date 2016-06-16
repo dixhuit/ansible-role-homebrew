@@ -6,7 +6,7 @@ Installs Homebrew & Homebrew Cask on Mac OS X.
 
 ## Requirements
 
-- Mac OS X
+- Mac OS 10.9+
 
 
 ## Role Variables
@@ -22,7 +22,7 @@ None.
 ## Example Playbook
 
 ```
-- hosts: macbookair
+- hosts: macbook
   connection: local
 
   roles:
@@ -36,4 +36,4 @@ MIT
 
 ## Author Information
 
-This role was created by [Dan Bohea](http://bohea.co.uk).
+This role was created by [Dan Bohea](http://bohea.co.uk) primarily for use with [Macsible](https://github.com/danbohea/macsible).
