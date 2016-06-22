@@ -2,11 +2,11 @@
 
 [![Build Status](https://travis-ci.org/danbohea/ansible-role-homebrew.svg?branch=master)](https://travis-ci.org/danbohea/ansible-role-homebrew)
 
-Installs Homebrew & Homebrew Cask on Mac OS X.
+Installs Homebrew & Homebrew Cask on macOS.
 
 ## Requirements
 
-- Mac OS 10.9+
+- macOS 10.9+
 
 
 ## Role Variables
