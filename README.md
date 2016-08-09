@@ -4,6 +4,7 @@
 
 Installs Homebrew & Homebrew Cask on macOS.
 
+
 ## Requirements
 
 - macOS 10.9+
@@ -11,13 +12,7 @@ Installs Homebrew & Homebrew Cask on macOS.
 
 ## Role Variables
 
-All role default variables are listed below along with their respective default values.
-
-```
-homebrew_cask_appdir: "/Applications"
-```
-
-Not used by this role itself but provides a centralised way of storing the value for other roles that may use this role as a dependency.
+None.
 
 
 ## Dependencies
@@ -34,6 +29,7 @@ None.
   roles:
     - role: ansible-role-homebrew
 ```
+
 
 ## License
 
