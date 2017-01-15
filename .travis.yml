@@ -1,9 +1,8 @@
 ---
 
+sudo: required
 # https://docs.travis-ci.com/user/osx-ci-environment
-
 language: objective-c
-
 matrix:
   include:
     # macOS 10.12
