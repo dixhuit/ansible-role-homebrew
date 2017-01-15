@@ -17,6 +17,13 @@ matrix:
     - osx_image: xcode6.4
   fast_finish: true
 
+before_install:
+  # Uninstall preinstalled Homebrew
+  - 'ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)"'
+  - rm -rf /usr/local/Homebrew
+  - rm -rf /usr/local/Caskroom
+  - rm -rf /usr/local/bin/brew
+
 install:
   # Debug info
   - python --version
