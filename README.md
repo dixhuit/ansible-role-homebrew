@@ -22,7 +22,7 @@ None.
 
 ## Example Playbook
 
-```
+```yaml
 - hosts: macbook
   connection: local
 
