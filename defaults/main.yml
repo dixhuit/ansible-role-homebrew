@@ -1,0 +1,4 @@
+# Any additional taps to add beyond caskroom/cask.
+
+homebrew_taps:
+  - caskroom/versions

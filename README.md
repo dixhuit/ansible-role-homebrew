@@ -2,7 +2,8 @@
 
 [![Build Status](https://travis-ci.org/danbohea/ansible-role-homebrew.svg?branch=master)](https://travis-ci.org/danbohea/ansible-role-homebrew)
 
-Installs Homebrew & Homebrew Cask on macOS.
+- Installs Homebrew & Homebrew Cask on macOS.
+- Also taps additional repositories if you wish.
 
 
 ## Requirements
@@ -12,7 +13,16 @@ Installs Homebrew & Homebrew Cask on macOS.
 
 ## Role Variables
 
-None.
+All role default variables are listed below along with their respective default values.
+
+```yaml
+
+# Any additional taps to add beyond caskroom/cask.
+
+homebrew_taps:
+  - caskroom/versions
+
+```
 
 
 ## Dependencies
