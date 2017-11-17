@@ -19,8 +19,7 @@ All role default variables are listed below along with their respective default 
 
 # Any additional taps to add beyond caskroom/cask.
 
-homebrew_taps:
-  - caskroom/versions
+homebrew_taps: []
 
 ```
 
