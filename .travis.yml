@@ -11,11 +11,12 @@ matrix:
     - osx_image: xcode8
 
 before_install:
+  # TODO: Throws an error at `sudo easy_install pip`.
   # Uninstall preinstalled Homebrew
-  - 'ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)" </dev/null'
-  - rm -rf /usr/local/Homebrew
-  - sudo rm -rf /usr/local/Caskroom
-  - rm -rf /usr/local/bin/brew
+  # - 'ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/uninstall)" </dev/null'
+  # - rm -rf /usr/local/Homebrew
+  # - sudo rm -rf /usr/local/Caskroom
+  # - rm -rf /usr/local/bin/brew
 
 install:
   # Debug info
