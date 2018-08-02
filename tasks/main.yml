@@ -18,5 +18,5 @@
 
 - name: Add additional taps.
   homebrew_tap:
-    name: {{ item }}
+    name: "{{ item }}"
   with_items: "{{ homebrew_taps }}"
