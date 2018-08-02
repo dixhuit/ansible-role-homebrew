@@ -12,9 +12,9 @@
   homebrew:
     update_homebrew: yes
 
-- name: Add caskroom/cask tap.
-  homebrew_tap:
-    name: caskroom/cask
+# - name: Add caskroom/cask tap.
+#   homebrew_tap:
+#     name: caskroom/cask
 
 - name: Add additional taps.
   homebrew_tap:
