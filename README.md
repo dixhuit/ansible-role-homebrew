@@ -5,11 +5,12 @@
 - Installs Homebrew on macOS.
 - Also taps additional repositories if you wish.
 
-
 ## Requirements
 
-- macOS 10.11 or 10.12
-
+macOS:
+- 10.13
+- 10.12
+- 10.11
 
 ## Role Variables
 
@@ -22,11 +23,9 @@ homebrew_taps: []
 
 ```
 
-
 ## Dependencies
 
 None.
-
 
 ## Example Playbook
 
@@ -38,11 +37,9 @@ None.
     - role: ansible-role-homebrew
 ```
 
-
 ## License
 
 MIT
-
 
 ## Author Information
 

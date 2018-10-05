@@ -5,6 +5,8 @@ sudo: required
 language: objective-c
 matrix:
   include:
+    # macOS 10.13
+    - osx_image: xcode9.3beta
     # macOS 10.12
     - osx_image: xcode8.2
     # macOS 10.11
