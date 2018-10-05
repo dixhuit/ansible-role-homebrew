@@ -1,3 +1,2 @@
-# Any additional taps to add beyond caskroom/cask.
-
+# Any additional taps to add.
 homebrew_taps: []
