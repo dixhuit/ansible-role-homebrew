@@ -7,10 +7,6 @@ matrix:
   include:
     # macOS 10.13
     - osx_image: xcode9.4
-    # macOS 10.12
-    - osx_image: xcode9.2
-    # macOS 10.11
-    - osx_image: xcode8
 
 before_install:
   # TODO: Throws an error at `sudo easy_install pip`.
@@ -25,8 +21,6 @@ install:
   - python --version
   # Install pip
   - sudo easy_install pip
-  # Update pip (macOS 10.12 seems to need pip v10.x)
-  - sudo pip install -U pip
   # Install Ansible
   - sudo pip install ansible --quiet
   # Debug info

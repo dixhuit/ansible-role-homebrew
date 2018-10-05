@@ -7,10 +7,7 @@
 
 ## Requirements
 
-macOS:
-- 10.13
-- 10.12
-- 10.11
+- macOS 10.13
 
 ## Role Variables
 
