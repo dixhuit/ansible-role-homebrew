@@ -25,8 +25,8 @@ install:
   - python --version
   # Install pip
   - sudo easy_install pip
-  # Update pip
-  - pip install -U pip
+  # Update pip (macOS 10.12 seems to need pip v10.x)
+  - sudo pip install -U pip
   # Install Ansible
   - sudo pip install ansible --quiet
   # Debug info
