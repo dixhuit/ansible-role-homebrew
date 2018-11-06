@@ -16,4 +16,4 @@
   homebrew_tap:
     name: "{{ item }}"
   with_items: "{{ homebrew_taps }}"
-  when: homebrew_taps | length
+  when: homebrew_taps != ""
