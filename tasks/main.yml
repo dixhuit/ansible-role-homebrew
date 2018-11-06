@@ -12,6 +12,8 @@
   homebrew:
     update_homebrew: yes
 
+# TODO: This condition isn't working. The task isn't skipped,
+# it runs but doesn't do anything.
 - name: Add additional taps.
   homebrew_tap:
     name: "{{ item }}"
